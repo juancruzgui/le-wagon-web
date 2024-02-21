@@ -1,0 +1,40 @@
+/* Write some CSS below */
+/* style.css */
+
+body {
+  font-family: Overpass;
+}
+
+h1, h2, h3 {
+  color: #404042;
+  font-family: Chivo;
+}
+
+p {
+  color: #404042;
+  opacity: .7;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+a {
+  color: #1A48E3;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .3s;
+}
+
+a:hover {
+  color: #CE2FAE;
+}
+
+.cards{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  grid-gap:16px;
+  margin-bottom:24px;
+}
